@@ -8,13 +8,6 @@ G = nx.Graph()
 nodes = ['A', 'B', 'C', 'D', 'E']
 G.add_nodes_from(nodes)
 
-# Додаємо ребра (дороги) з вагами
-edges = [
-    ('A', 'B', 5), ('A', 'C', 10), ('B', 'C', 2),
-    ('B', 'D', 4), ('C', 'D', 1), ('D', 'E', 3)
-]
-G.add_weighted_edges_from(edges)
-
 CREATED_GRAPH = G
 
 # Візуалізація графа
